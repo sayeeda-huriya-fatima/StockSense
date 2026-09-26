@@ -48,7 +48,7 @@ StockSense replaces traditional single-column counters (`stock_count = stock_cou
 
 ---
 
-## ⚡ Core Functions (RPC API)
+##  Core Functions (RPC API)
 
 ### 1. `create_operation_with_lines`
 
@@ -86,7 +86,7 @@ SELECT get_current_stock('<product_uuid>', '<location_uuid>');
 
 ---
 
-## 🚀 Setup & Migrations
+##  Setup & Migrations
 
 1. Link or configure your Supabase instance.
 2. Run the migration script located at `supabase/migrations/init_stocksense.sql`.

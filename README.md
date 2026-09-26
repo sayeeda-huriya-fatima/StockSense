@@ -15,7 +15,7 @@ StockSense replaces traditional single-column counters (`stock_count = stock_cou
 
 ---
 
-## 📊 Database Schema
+## Database Schema
 
 ```text
 [ locations ] ──< [ stock_moves ] >── [ products ]
@@ -76,16 +76,4 @@ SELECT get_current_stock('<product_uuid>', '<location_uuid>');
 1. Link or configure your Supabase instance.
 2. Run the migration script located at `supabase/migrations/init_stocksense.sql`.
 
-```
 
----
-
->Go for it. Editing or creating files directly on GitHub's web interface is fine for quick edits or docs, but keep these practical realities in mind:
-
-1. **Commit clutter:** GitHub commits every change directly when you hit save. If you're testing code or tweaking formatting, make a separate branch rather than committing broken drafts straight to `main`.
-2. **The web editor shortcut:** Press `.` (period) while inside any repository to launch GitHub’s full in-browser VS Code editor. It gives you a multi-file file tree, search, and a much cleaner interface than editing one raw file at a time.
-3. **No runtime:** Remember you can't run scripts, compile code, or test backend connections there unless you launch a full GitHub Codespace. 
-
-What file or repo are you setting up?
-
-```

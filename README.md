@@ -1,19 +1,4 @@
-Editing directly on GitHub is often much easier because you get an instant live preview.
 
-Here is how to polish it right in your browser:
-
-1. Go to your repository: `[https://github.com/sayeeda-huriya-fatima/StockSense](https://github.com/sayeeda-huriya-fatima/StockSense)`
-2. Click on the **`README.md`** file in the file list.
-3. Click the **pencil icon** (✏️) in the top-right corner of the file viewer to enter the web editor.
-4. Paste the complete formatted text below into the editor.
-5. Click the **Preview** tab at the top to ensure the formatting, code blocks, and diagrams render cleanly.
-6. Click the green **Commit changes...** button at the top right, select *Commit directly to the `main` branch*, and confirm.
-
----
-
-### Copy-Paste Content for Your GitHub Editor
-
-```markdown
 # StockSense — Double-Entry Inventory Ledger Backend
 
 A robust inventory engine built on **Supabase (PostgreSQL)** implementing double-entry stock keeping with zero-negative integrity guarantees.
